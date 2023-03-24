@@ -1,0 +1,40 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+
+
+
+Var
+nome : caractere
+idade : inteiro
+bimestreI, bimestreII, bimestreIII, bimestreIV, media, aprovacao : real
+
+Inicio
+escreval (" Digite o nome do aluno")
+Leia (nome)
+escreval("Digite a idade do Aluno")
+Leia (idade)
+escreval("Digite a Nota do 1º Bimestre")
+Leia (bimestreI)
+escreval("Digite a Nota do 2º Bimestre")
+Leia (bimestreII)
+escreval("Digite a Nota do 3º Bimestre")
+Leia (bimestreIII)
+escreval("Digite a Nota 4º Bimestre")
+Leia (bimestreIV)
+
+media <-  (bimestreI + bimestreII + bimestreIII + bimestreIV)/4
+limpatela
+escreval("Aluno:", nome)
+escreval("Idade", idade)
+escreval("1º Bimestre", bimestreI)
+escreval("2º Bimestre", bimestreII)
+escreval("3º Bimestre", bimestreIII)
+escreval("4º Bimestre", bimestreIV)
+escreval ("Media", media)
+se media >= 7 então
+escreval("Está aprovado")
+Senao
+escreval("Reprovado")
+    Fimse
+Fimalgoritmo
