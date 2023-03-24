@@ -1,0 +1,19 @@
+algoritmo "exemplo1"
+var
+   n1, n2, soma, subtracao, divisao, multiplicacao: real
+inicio
+
+escreval("digite um numero")
+leia (n1)
+escreval("digite oto numero")
+leia (n2)
+soma <- n1 + n2;
+subtracao <- n1 - n2;
+divisao <- n1 / n2;
+multiplicacao <- n1 * n2;
+escreval ("Resultado da soma ", soma)
+escreval ("Resultado da subtracao", subtracao)
+escreval ("Resultado da divisao", divisao)
+escreval ("Resultado da multiplicacao", multiplicacao)
+
+fimalgoritmo

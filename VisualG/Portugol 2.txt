@@ -1,0 +1,19 @@
+Algoritmo "semnome"
+
+
+
+Var
+base, altura, area : real
+
+
+
+Inicio
+escreval ("Escreva a Base")
+Leia (base)
+escreval ("Escreva a Altura")
+Leia (atura)
+
+area <- Base*Altura/2
+
+Escreval ("Resultado", area)
+Fimalgoritmo
