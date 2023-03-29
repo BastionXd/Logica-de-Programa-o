@@ -1,0 +1,53 @@
+   Algoritmo "semnome"
+
+
+
+
+
+   Var
+ numero1, numero2, numero3: real
+
+
+
+   Inicio
+
+   escreval("Digite um numero")
+   leia(numero1)
+
+   limpatela
+
+   escreval("Digite outro numero")
+   leia(numero2)
+
+   limpatela
+
+   escreval("Digite mais um numero")
+   leia(numero3)
+
+
+   limpatela
+
+
+   se (numero1>numero2) e (numero1>numero3)  entao
+      escreval("Primeiro numero: ", numero1, " É o maior")
+      fimse
+    se(numero2>numero1) e (numero2>numero3) entao
+     escreval("Segundo numero: ", numero2, " É o maior")
+     fimse
+     se (numero3>numero1) e (numero3>numero1) entao
+     escreval("Terceiro numero: ", numero3, " É o maior")
+FIMSE
+
+   se (numero1<numero2) e (numero1<numero3)  entao
+      escreval("Primeiro numero: ", numero1, " É o menor")
+      fimse
+    se(numero2<numero1) e (numero2<numero3) entao
+     escreval("Segundo numero: ", numero2, " É o menor")
+     fimse
+     se (numero3<numero1) e (numero3<numero1) entao
+     escreval("Terceiro numero: ", numero3, " É o menor")
+FIMSE
+   escreval(numero1, numero2, numero3)
+
+
+   Fimalgoritmo
